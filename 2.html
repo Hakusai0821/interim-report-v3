@@ -1,0 +1,18 @@
+<div id="listBtn" onclick="listBtn()">秀出來</div>
+<div id="textlistn" style="display:none;">
+	Hello IT邦
+</div>
+<script>
+function listBtn() {
+  var listBtn = document.getElementById('listBtn');
+  var textlistn = document.getElementById('textlistn');
+ 
+  if (textlistn.style.display === 'none') {
+    textlistn.style.display = 'block';
+    // listBtn.innerText = "隱藏";
+  } else {
+    textlistn.style.display = 'none';
+    // listBtn.innerText = "秀出來";
+  }
+}
+</script>

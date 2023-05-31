@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="Login.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <title>會員登入</title>
+  </head>
+  <body>
+    <div class="top-box">
+      <div class="container">
+        <div class="bullhorn">
+          <i class="bi bi-camera-video-fill">
+            全館 常溫２５００免運/ 冷凍２５００免運</i
+          >
+        </div>
+        <div class="container-link">
+          <a href="#"><i class="bi bi-facebook"></i></a>
+          <a href="#"><i class="bi bi-instagram"></i></a>
+          <a href="#"><i class="bi bi-envelope"></i>聯絡我們</a>
+        </div>
+      </div>
+    </div>
+    <!-- end to top-box -->
+<nav class="nav-fixed">
+    <div class="header">
+      <div class="logo">
+        <a href="./index.html">
+          <img src="img/iogo.png" class="logo-sign" alt="" />
+        </a>
+      </div>
+      <div class="head-main">
+        <div class="head-content">
+          <ul class="nav-ul">
+            <li class="nav-li">
+              <a href="#">貓區</a>
+              <ul style="display: none">
+                <li><a href="#">狗區</a></li>
+                <li><a href="#">寵物用品區</a></li>
+                <li><a href="#">特價品區</a></li>
+              </ul>
+            </li>
+            <li class="nav-li"><a href="#">狗區</a></li>
+            <li class="nav-li"><a href="#">寵物用品區</a></li>
+            <li class="nav-li"><a href="#">特價品區</a></li>
+          </ul>
+        </div>
+        <div class="head-option">
+          <a href="#" class="option-s" id="options"
+            ><i class="bi bi-search"></i>找商品</a
+          >
+          <a href="#" class="option"
+            ><i class="bi bi-person-circle"></i>會員登入</a
+          >
+          <a href="#"><i class="bi bi-cart4"></i></a>
+        </div>
+      </div>
+      <!-- end of head-main -->
+    </div>
+  </nav>
+    <!-- end of header -->
+    <!--! search框 -->
+    <div
+      class="search-outter"
+      id="search-outter"
+      style="opacity: 0; display: none"
+    >
+      <input type="text" name="keywords" placeholder="請輸入商品名稱" />
+      <button class="s-btn">搜尋</button>
+    </div>
+
+    <!--! login -->
+    <div class="login">
+      <div class="wrapper">
+        <div class="form-box ">
+          <h2>會員登入</h2>
+          <form action="#">
+            <div class="input-box">
+              <span class="icon"><ion-icon name="mail"></ion-icon></span>
+              <input type="email" required />
+              <label>帳號 / 信箱</label>
+            </div>
+            <div class="input-box">
+              <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+              <input type="password" required />
+              <label>密碼</label>
+            </div>
+            <div class="remember-forgot">
+              <label> <input type="checkbox" />記住帳號 </label>
+              <a href="#">忘記密碼?</a>
+            </div>
+            <button type="submit" class="btn">登入</button>
+            <div class="login-register">
+              <p>
+                還沒有成為會員?
+                <a href="#" class="register-link">&nbsp;註冊</a>
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!--! footer -->
+    <div class="footer">
+      <div class="foot-main" >
+        <div class="foot-top">
+          <ul class="reset">
+            <li>客服專線 01-2345678</li>
+            <li class="foot-logo">
+              <a href="#">
+                <img src="img/re_goods.png" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="#">台中市XXX區XXX路XX號</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="foot-btm">
+        <div class="tag">
+          <a href="#">貓草</a>
+          <a href="#">貓砂</a>
+          <a href="#">貓砂周邊</a>
+          <a href="#">貓罐頭</a>
+          <a href="#">隧道</a>
+          <a href="#">貓抓板</a>
+          <a href="#">貓咪玩具</a>
+          <a href="#">撿便袋</a>
+          <a href="#">狗狗玩具</a>
+          <a href="#">狗狗飼料</a>
+          <a href="#">環境用品</a>
+          <a href="#">睡床</a>
+          <a href="#">項圈</a>
+          <a href="#">胸背</a>
+          <a href="#">尿布</a>
+          <a href="#">飲水器</a>
+          <a href="#">鍋碗瓢盆</a>
+          <a href="#">口腔護理</a>
+          <a href="#">沐浴洗劑</a>
+          <a href="#">濕紙巾</a>
+        </div>
+        <div class="copy">
+          <p>Copyright © PHPD05呂俊廷 All rights Reserved.</p>
+          &nbsp;&nbsp;
+          <a href="#">聯絡我們</a>
+          &nbsp;│&nbsp;
+          <a href="#">隱私權保護</a>
+          &nbsp;│&nbsp;
+          <a href="#">服務條款</a>
+        </div>
+      </div>
+    </div>
+    <!-- end of footer -->
+  </body>
+  <script src="demo.js"></script>
+  <script src="js/bootstrap.bundle.js"></script>
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+  ></script>
+</html>
